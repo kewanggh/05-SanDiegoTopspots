@@ -1,0 +1,60 @@
+body {
+     position: relative;
+     font-family: 'Arvo', serif;
+     background-image: url("image/background.jpg");
+     background-size: 100% 100%;
+ }
+ 
+ #outerContainer {
+     margin: 0 40px;
+ }
+ 
+ thead {
+     font-weight: bold;
+ }
+ 
+ button {
+     vertical-align: middle;
+ }
+ 
+ header {
+     margin: 0px 40px 0 40px;
+     padding-top: 60px;
+     padding-bottom: 20px;
+ }
+ 
+ header h1 {
+     font-weight: bold;
+     text-shadow: 2px 2px gray;
+     display: inline-block;
+     margin-right: 150px;
+ }
+ 
+ #intro {
+     font-size: 1.5em;
+     margin-bottom: 10px;
+ }
+ 
+ footer {
+     margin: 50px 40px 0 40px;
+     text-align: center;
+ }
+ 
+ #map {
+     height: 100%;
+     /*box-shadow: 10px 10px 5px #888888;*/
+ }
+ 
+ #mapouter {
+     position: fixed;
+     top: 100px;
+     left: 300px;
+ }
+ 
+ img {
+     margin-left: 50px;
+ }
+
+#mapbutton {
+    margin: 10px 0 10px 100px;
+}
